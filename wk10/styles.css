@@ -1,0 +1,83 @@
+/* Liliana Godinez 11/17/2026 */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 20px;
+}
+.container{
+    max-width: 700px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+header{
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+header img{
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+h2{
+    margin-top: 0;
+    color: #333;
+    font-weight: bold;
+    font-size: 2em;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color:#21456d;
+}
+input, select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+input[type="radio"]{
+    margin: 0;
+}
+.radio-option{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    width: 300px;
+    background-color: #21456d;
+    color: #fff;
+    padding: 12px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+footer {
+   text-align:center;
+   margin-top: 20px;
+   padding-top: 15px;
+}
+input:user-valid,
+select:user-valid {
+    background-color: #90ee90;
+    border: 1px solid #008000;
+}
+input:user-invalid,
+select:user-invalid {
+    background-color: #f8d7da;
+    border: 1px solid #bc313f;
+    font-weight: bold;
+}
+input[type=text]:focus,
+input[type=date]:focus,
+select:focus {
+    background-color: #e9ecef;
+}
